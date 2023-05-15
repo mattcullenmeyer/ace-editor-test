@@ -5,7 +5,7 @@
   "main": "index.tsx",
   "scripts": {
     "build": "webpack",
-    "start": "webpack serve --open --mode development",
+    "start": "webpack serve --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -33,7 +33,7 @@
     "webpack-dev-server": "^4.15.0"
   },
   "dependencies": {
-    "ace-builds": "^1.20.0",
+    "ace-builds": "^1.21.0",
     "react": "^18.2.0",
     "react-ace": "^10.1.0",
     "react-dom": "^18.2.0",

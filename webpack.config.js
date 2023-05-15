@@ -33,6 +33,10 @@ module.exports = {
         test: /\.(css)$/,
         use: ["style-loader", "css-loader"],
       },
+      {
+        test: /ace-builds.*\/worker-.*$/,
+        type: "asset/resource",
+      },
     ],
   },
   plugins: [
