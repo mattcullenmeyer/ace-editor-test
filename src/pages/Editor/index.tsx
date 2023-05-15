@@ -2,8 +2,8 @@ import React from "react";
 import AceEditor from "react-ace";
 import { config } from "ace-builds";
 import "ace-builds/src-noconflict/mode-html";
-import jsWorkerUrl from "ace-builds/src-noconflict/worker-html";
-config.setModuleUrl("ace/mode/html_worker", jsWorkerUrl);
+import htmlWorkerUrl from "ace-builds/src-noconflict/worker-html";
+config.setModuleUrl("ace/mode/html_worker", htmlWorkerUrl);
 
 export const Editor = (): React.ReactElement => {
   return (
